@@ -13,6 +13,16 @@ ro.surface_flinger.has_wide_color_display=true
 # FUSE
 persist.sys.fuse.passthrough.enable=true
 
+# LMKD
+ro.lmk.kill_heaviest_task=true
+ro.lmk.kill_timeout_ms=15
+
+# IMS
+persist.vendor.ims.disableADBLogs=1
+persist.vendor.ims.disableDebugLogs=1
+persist.vendor.ims.disableIMSLogs=1
+persist.vendor.ims.disableQXDMLogs=1
+
 # Media
 media.aac_51_output_enabled=true
 media.stagefright.enable-aac=true

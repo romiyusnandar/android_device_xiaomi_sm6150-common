@@ -37,7 +37,7 @@ import androidx.preference.SwitchPreferenceCompat;
 
 import com.android.settingslib.widget.MainSwitchPreference;
 
-import org.lineageos.settings.R;
+import org.lineageos.settings.doze.R;
 import org.lineageos.settings.utils.FileUtils;
 
 public class DozeSettingsFragment extends PreferenceFragment

@@ -34,7 +34,7 @@ import android.util.Log;
 import androidx.preference.ListPreference;
 import androidx.preference.PreferenceManager;
 
-import org.lineageos.settings.R;
+import org.lineageos.settings.doze.R;
 import org.lineageos.settings.utils.FileUtils;
 
 public final class DozeUtils {

@@ -48,7 +48,8 @@
             android:name=".doze.DozeSettingsActivity"
             android:exported="false"
             android:label="@string/ambient_display_title"
-            android:theme="@style/Theme.SubSettingsBase">
+            android:theme="@style/Theme.SubSettingsBase"
+            android:enableOnBackInvokedCallback="true" >
             <intent-filter>
                 <action android:name="org.lineageos.settings.device.DOZE_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -60,7 +61,8 @@
             android:exported="false"
             android:label="@string/thermal_title"
             android:icon="@drawable/ic_thermal_settings"
-            android:theme="@style/Theme.SubSettingsBase_v31">
+            android:theme="@style/Theme.SubSettingsBase_v31"
+            android:enableOnBackInvokedCallback="true" >
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>

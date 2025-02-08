@@ -18,7 +18,7 @@
 
 # Data files
 /data/per_boot(/.*)?                                                 u:object_r:per_boot_file:s0
-/data/vendor/dolby(/.*)?                                             u:object_r:vendor_data_file:s0
+#/data/vendor/dolby(/.*)?                                             u:object_r:vendor_data_file:s0
 
 # Display
 /dev/xiaomi-touch                                                    u:object_r:touchfeature_device:s0

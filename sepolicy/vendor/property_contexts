@@ -1,3 +1,6 @@
+# Bypass charge
+persist.sys.battery_health_bypass_enabled  u:object_r:persist_sys_prop:s0
+
 # Camera
 vendor.camera.                     u:object_r:vendor_camera_prop:s0
 persist.camera.                    u:object_r:vendor_camera_prop:s0
